@@ -4,8 +4,7 @@ language: go
 
 matrix:
   include:
-    - go: 1.5
-      os: linux
+    - os: linux
       env: REPORT_COVERAGE=true GO15VENDOREXPERIMENT=1
     - go: 1.5
       os: osx
